@@ -1,17 +1,16 @@
-;本脚本是用来为vs code添加右键打开功能的
+﻿;本脚本是用来为vs code添加右键打开功能的，使用时请将本注释删除
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
 @="Open VSCode Here"
-"Icon"="D:\\1_elon_soft\\1_vs_code\\Microsoft VS Code\\Code.exe"
+"Icon"="E:\\0SmallSoftware\\6VScode\\Microsoft VS Code\\Code.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
-@="D:\\1_elon_soft\\1_vs_code\\Microsoft VS Code\\Code.exe ."
+@="E:\\0SmallSoftware\\6VScode\\Microsoft VS Code\\Code.exe ."
 
 [HKEY_CLASSES_ROOT\Directory\shell\VSCode]
 @="Open VSCode Here"
-"Icon"="D:\\1_elon_soft\\1_vs_code\\Microsoft VS Code\\Code.exe"
+"Icon"="E:\\0SmallSoftware\\6VScode\\Microsoft VS Code\\Code.exe"
 
 [HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
-@="D:\\1_elon_soft\\1_vs_code\\Microsoft VS Code\\Code.exe %1"
-
+@="E:\\0SmallSoftware\\6VScode\\Microsoft VS Code\\Code.exe %1"
